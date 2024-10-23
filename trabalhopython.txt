@@ -1,0 +1,7 @@
+print("Entre com o peso")
+a=int(input())
+print("Entre com a altura")
+b=float(input())
+imc=a/(b*b)
+
+print("o imc e: ", imc)
