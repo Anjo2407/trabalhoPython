@@ -1,0 +1,25 @@
+
+print("Entre com o peso")
+a=int(input())
+print("Entre com a altura")
+b=float(input())
+imc=a/(b*b)
+
+print("o imc e: ", imc)
+
+if imc < 16:
+    print("Magreza alta\n")
+elif imc < 17:
+    print("Magreza moderada\n")
+elif imc < 18.5:
+    print("magreza leve\n")
+elif imc < 25:
+    print(" Saudável\n")
+elif  imc < 30:
+    print("Sobrepeso\n")
+elif  imc < 35:
+    print( "Obesidade Grau I (acentuada)" )
+elif  imc < 40:
+    print("Obesidade Grau II (severa)")
+else:
+    print("Obesidade Grau III(aguda)")
